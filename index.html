@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nova — Advanced Portfolio</title>
+    <meta
+      name="description"
+      content="Advanced portfolio website with modern UI/UX, smooth motion, and interactive sections."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="mesh mesh-a"></div>
+    <div class="mesh mesh-b"></div>
+
+    <header class="site-header glass">
+      <a href="#" class="logo">NOVA<span>•</span></a>
+      <nav>
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">◐</button>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">Product Designer & Frontend Engineer</p>
+        <h1>
+          I design delightful digital products with
+          <span class="gradient-text">performance-first experiences</span>.
+        </h1>
+        <p class="hero-copy">
+          Building visually rich interfaces with accessible interactions,
+          intentional motion, and scalable engineering.
+        </p>
+        <div class="hero-cta">
+          <a class="btn primary magnetic" href="#work">See Projects</a>
+          <a class="btn secondary magnetic" href="#contact">Book a Call</a>
+        </div>
+
+        <div class="stats-grid glass">
+          <article>
+            <h3>8+</h3>
+            <p>Years crafting web products</p>
+          </article>
+          <article>
+            <h3>40+</h3>
+            <p>Shipped client and startup projects</p>
+          </article>
+          <article>
+            <h3>99</h3>
+            <p>Lighthouse accessibility score target</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="work" class="section">
+        <div class="section-head">
+          <h2>Featured Work</h2>
+          <p>Selected products balancing aesthetics and conversion.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card glass reveal">
+            <span class="tag">Fintech</span>
+            <h3>Pulse Banking</h3>
+            <p>Redesigned transaction flows, reducing drop-off by 34%.</p>
+            <a href="#">View case study →</a>
+          </article>
+          <article class="project-card glass reveal">
+            <span class="tag">SaaS</span>
+            <h3>Orbit Analytics</h3>
+            <p>Built a real-time dashboard with advanced data visualization.</p>
+            <a href="#">View case study →</a>
+          </article>
+          <article class="project-card glass reveal">
+            <span class="tag">Ecommerce</span>
+            <h3>Mode Atelier</h3>
+            <p>Launched immersive storefront with 2.1x conversion uplift.</p>
+            <a href="#">View case study →</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="section-head">
+          <h2>Capabilities</h2>
+        </div>
+        <div class="chip-wrap">
+          <span>Design Systems</span>
+          <span>Framer Motion</span>
+          <span>React / Next.js</span>
+          <span>WebGL Integration</span>
+          <span>Performance Optimization</span>
+          <span>Accessibility (WCAG)</span>
+          <span>Interaction Design</span>
+          <span>Analytics-led Iteration</span>
+        </div>
+      </section>
+
+      <section id="about" class="section about glass reveal">
+        <h2>About</h2>
+        <p>
+          I merge product thinking, visual design, and frontend craft. My focus
+          is creating interfaces that feel premium while staying fast,
+          maintainable, and inclusive.
+        </p>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="contact-card glass reveal">
+          <h2>Let’s build something remarkable.</h2>
+          <p>Open to freelance, consulting, and product collaborations.</p>
+          <a href="mailto:hello@nova.studio" class="btn primary magnetic">hello@nova.studio</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> Nova Portfolio — Crafted with intent.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
